@@ -49,7 +49,7 @@ private DBConnectionMgr pool;
 		boolean flag=false;
 		try {
 			con=pool.getConnection();
-			sql="delete from `black`.`user_info` where `id`=?";
+			sql="delete from user_info where `id`=?";
 			pstmt=con.prepareStatement(sql);
 			pstmt.setString(1,id);
 			if (pstmt.executeUpdate()==1) {
