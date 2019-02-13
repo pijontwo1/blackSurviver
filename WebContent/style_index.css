@@ -1,0 +1,400 @@
+
+
+body.gateway { background: url(../images/bg_gateway.jpg) repeat left top;}
+.iblockWrapper {position:relative;min-width:1024px;
+	padding-right:65px;
+	_height:1%;
+	*min-height:1%;}
+
+.iblockWrapper.gateway {padding:0;}
+.iblockWrapper.gateway .iblockGateWay {position:relative;width:1250px;padding:0 20px 30px;margin:0 auto;color:#5b5b54;}
+.igateTopLogo {position: absolute;top: 19px;left: 20px;}
+.igateTopLogo span {display:inline-block;width:165px;height:80px; background: url(../images/logo.gif) no-repeat; text-indent:-9999px; }
+.floatLeft {float:left;}
+.floatRight {float:right;}
+.floatLeft1 {float:left;}
+.floatRight1 {float:right;}
+.iblockGateWay .LsnsGo {position:absolute;top:19px;right:20px; }
+.iblockGateWay .iclear {padding-top:200px;}
+.iblockGateWay .iclear .floatLeft {width:23%;}
+.iblockGateWay .iclear .floatRight {width:23%;}
+.iblockGateWay .iclear .floatLeft1 {width:23%;}
+.iblockGateWay .iclear .floatRight1 {width:23%;}
+.iblockGateWay .iclear .floatLeft a, .iblockGateWay .iclear .floatRight a {display:block;} 
+.iblockGateWay .iclear .floatLeft a img, .iblockGateWay .iclear .floatRight a img {width:100%;}
+.iblockGateWay .iclear .floatLeft1 a, .iblockGateWay .iclear .floatRight1 a {display:block;} 
+.iblockGateWay .iclear .floatLeft1 a img, .iblockGateWay .iclear .floatRight1 a img {width:100%;}
+.iblockWrapper.gateway .iblockFooterMenu {position:relative;width:auto;top:auto;right:auto;text-align:center;margin-top:5px;}
+.iblockWrapper.gateway .iblockFooterMenu ul, .iblockGateWay .iblockFooterMenu ul li { display:inline-block;color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a {color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a:hover {color: #5b5b54;}
+.iblockWrapper.gateway .iblockFooterCopyright {position:relative;width:auto;text-align:center;top:auto;margin-top:100px;color:#6c6a66;font-size: 0.8em;}
+.iblockWrapper.gateway .iblockFooterMenu li a.policy {color:#d80546;}
+.iblockWrapper.gateway .iblockFooterMenu li a.policy:hover {color: #d80546;}
+.iblockWrapper.gateway .iblockFooterLogo{text-align:center; margin-top:15px;}
+.iblockWrapper.gateway .iblockFooterLogo img{width:auto; height:25px;}
+
+
+@media (min-width:300px) and ( max-width: 350px ) {
+
+.iblockWrapper {position:relative;min-width:100px;
+	padding-right:65px;
+	_height:1%;
+	*min-height:1%;}
+	
+
+.iblockGateWay .iclear {float:left;}
+
+.iblockWrapper.gateway {padding:0;}
+.iblockWrapper.gateway .iblockGateWay {position:relative;width:300px;padding:1px 1px 1px 1px;margin:0 auto;color:#5b5b54;}
+.igateTopLogo {position: absolute;top: 1px;left: 25%;}
+.igateTopLogo span {display:inline-block;width:165px;height:50px; background: url(../images/logo.gif) no-repeat; text-indent:-9999px; }
+.floatLeft {float:left;clear:both;margin-left:auto;margin-right:auto;}
+.floatLeft1 {float:left;margin-left:auto;margin-right:auto;}
+.floatRight {float:left;clear:left;}
+.floatRight1 {float:left;}
+.iblockGateWay .LsnsGo {position:absolute;top:11px;right:20px;  }
+.iblockGateWay .iclear {padding-top:85px;margin-left:3%;margin-right:auto;}
+.iblockGateWay .iclear .floatLeft {width:130px;padding-right:10px; display:inline;}
+.iblockGateWay .iclear .floatRight {width:130px;display:inline;padding-right:10px;}
+.iblockGateWay .iclear .floatLeft1 {width:130px;display:inline;}
+.iblockGateWay .iclear .floatRight1 {width:130px;display:inline;}
+.iblockGateWay .iclear .floatLeft a, .iblockGateWay .iclear .floatRight a {display:block;} 
+.iblockGateWay .iclear .floatLeft a img, .iblockGateWay .iclear .floatRight a img {width:100%;}
+.iblockGateWay .iclear .floatLeft1 a, .iblockGateWay .iclear .floatRight1 a {display:block;} 
+.iblockGateWay .iclear .floatLeft1 a img, .iblockGateWay .iclear .floatRight1 a img {width:100%;}
+
+.iblockWrapper.gateway .iblockFooterMenu {position:relative;width:auto;top:auto;right:auto;
+text-align:center;margin-top:5px;}
+.iblockWrapper.gateway .iblockFooterMenu ul, .iblockGateWay .iblockFooterMenu ul li { 
+display:inline-block;color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a {color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a:hover {color: #5b5b54;}
+
+.iblockWrapper.gateway .iblockFooterCopyright {position:relative;width:auto;text-align:center;
+top:auto;margin-top:100px;color:#6c6a66;font-size: 0.8em;clear:both;}
+
+.iblockWrapper.gateway .iblockFooterMenu li a.policy {color:#d80546;}
+.iblockWrapper.gateway .iblockFooterMenu li a.policy:hover {color: #d80546;}
+.iblockWrapper.gateway .iblockFooterLogo{text-align:center; margin-top:15px;}
+.iblockWrapper.gateway .iblockFooterLogo img{width:auto; height:25px;}
+
+
+}
+
+
+
+
+@media (min-width:350px) and ( max-width: 450px ) {
+
+.iblockWrapper {position:relative;min-width:100px;
+	padding-right:65px;
+	_height:1%;
+	*min-height:1%;}
+	
+
+.iblockGateWay .iclear {float:left;}
+
+.iblockWrapper.gateway {padding:0;}
+.iblockWrapper.gateway .iblockGateWay {position:relative;width:350px;padding:1px 1px 1px 1px;margin:0 auto;color:#5b5b54;}
+.igateTopLogo {position: absolute;top: 1px;left: 30%;}
+.igateTopLogo span {display:inline-block;width:165px;height:80px; background: url(../images/logo.gif) no-repeat; text-indent:-9999px; }
+.floatLeft {float:left;clear:both;margin-left:auto;margin-right:auto;}
+.floatLeft1 {float:left;margin-left:auto;margin-right:auto;}
+.floatRight {float:left;clear:left;}
+.floatRight1 {float:left;}
+.iblockGateWay .LsnsGo {position:absolute;top:11px;right:20px;  }
+.iblockGateWay .iclear {padding-top:85px;margin-left:5%;margin-right:auto;}
+.iblockGateWay .iclear .floatLeft {width:150px;padding-right:10px; display:inline;}
+.iblockGateWay .iclear .floatRight {width:150px;display:inline;padding-right:10px;}
+.iblockGateWay .iclear .floatLeft1 {width:150px;display:inline;}
+.iblockGateWay .iclear .floatRight1 {width:150px;display:inline;}
+.iblockGateWay .iclear .floatLeft a, .iblockGateWay .iclear .floatRight a {display:block;} 
+.iblockGateWay .iclear .floatLeft a img, .iblockGateWay .iclear .floatRight a img {width:100%;}
+.iblockGateWay .iclear .floatLeft1 a, .iblockGateWay .iclear .floatRight1 a {display:block;} 
+.iblockGateWay .iclear .floatLeft1 a img, .iblockGateWay .iclear .floatRight1 a img {width:100%;}
+
+.iblockWrapper.gateway .iblockFooterMenu {position:relative;width:auto;top:auto;right:auto;
+text-align:center;margin-top:5px;}
+.iblockWrapper.gateway .iblockFooterMenu ul, .iblockGateWay .iblockFooterMenu ul li { 
+display:inline-block;color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a {color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a:hover {color: #5b5b54;}
+
+.iblockWrapper.gateway .iblockFooterCopyright {position:relative;width:auto;text-align:center;
+top:auto;margin-top:100px;color:#6c6a66;font-size: 0.8em;clear:both;}
+
+.iblockWrapper.gateway .iblockFooterMenu li a.policy {color:#d80546;}
+.iblockWrapper.gateway .iblockFooterMenu li a.policy:hover {color: #d80546;}
+.iblockWrapper.gateway .iblockFooterLogo{text-align:center; margin-top:15px;}
+.iblockWrapper.gateway .iblockFooterLogo img{width:auto; height:25px;}
+
+
+}
+
+@media (min-width:450px) and ( max-width: 550px ) {
+
+.iblockWrapper {position:relative;min-width:100px;
+	padding-right:65px;
+	_height:1%;
+	*min-height:1%;}
+	
+
+.iblockGateWay .iclear {float:left;}
+
+.iblockWrapper.gateway {padding:0;}
+.iblockWrapper.gateway .iblockGateWay {position:relative;width:450px;padding:0 20px 20px;margin:0 auto;color:#5b5b54;}
+.igateTopLogo {position: absolute;top: 19px;left: 20px;}
+.igateTopLogo span {display:inline-block;width:165px;height:80px; background: url(../images/logo.gif) no-repeat; text-indent:-9999px; }
+.floatLeft {float:left;clear:both;margin-left:auto;margin-right:auto;}
+.floatLeft1 {float:left;margin-left:auto;margin-right:auto;}
+.floatRight {float:left;clear:left;}
+.floatRight1 {float:left;}
+.iblockGateWay .LsnsGo {position:absolute;top:19px;right:20px;  }
+.iblockGateWay .iclear {padding-top:100px;margin-left:auto;margin-right:auto;}
+.iblockGateWay .iclear .floatLeft {width:200px;padding-right:10px; display:inline;}
+.iblockGateWay .iclear .floatRight {width:200px;display:inline;padding-right:10px;}
+.iblockGateWay .iclear .floatLeft1 {width:200px;display:inline;}
+.iblockGateWay .iclear .floatRight1 {width:200px;display:inline;}
+.iblockGateWay .iclear .floatLeft a, .iblockGateWay .iclear .floatRight a {display:block;} 
+.iblockGateWay .iclear .floatLeft a img, .iblockGateWay .iclear .floatRight a img {width:100%;}
+.iblockGateWay .iclear .floatLeft1 a, .iblockGateWay .iclear .floatRight1 a {display:block;} 
+.iblockGateWay .iclear .floatLeft1 a img, .iblockGateWay .iclear .floatRight1 a img {width:100%;}
+
+.iblockWrapper.gateway .iblockFooterMenu {position:relative;width:auto;top:auto;right:auto;
+text-align:center;margin-top:5px;}
+.iblockWrapper.gateway .iblockFooterMenu ul, .iblockGateWay .iblockFooterMenu ul li { 
+display:inline-block;color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a {color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a:hover {color: #5b5b54;}
+
+.iblockWrapper.gateway .iblockFooterCopyright {position:relative;width:auto;text-align:center;
+top:auto;margin-top:100px;color:#6c6a66;font-size: 0.8em;clear:both;}
+
+.iblockWrapper.gateway .iblockFooterMenu li a.policy {color:#d80546;}
+.iblockWrapper.gateway .iblockFooterMenu li a.policy:hover {color: #d80546;}
+.iblockWrapper.gateway .iblockFooterLogo{text-align:center; margin-top:15px;}
+.iblockWrapper.gateway .iblockFooterLogo img{width:auto; height:25px;}
+
+
+}
+
+
+
+@media (min-width:550px) and ( max-width: 650px ) {
+
+.iblockWrapper {position:relative;min-width:500px;
+	padding-right:65px;
+	_height:1%;
+	*min-height:1%;}
+	
+
+.iblockGateWay .iclear {float:left;}
+
+.iblockWrapper.gateway {padding:0;}
+.iblockWrapper.gateway .iblockGateWay {position:relative;width:550px;padding:0 20px 20px;margin:0 auto;color:#5b5b54;}
+.igateTopLogo {position: absolute;top: 19px;left: 20px;}
+.igateTopLogo span {display:inline-block;width:165px;height:80px; background: url(../images/logo.gif) no-repeat; text-indent:-9999px; }
+.floatLeft {float:left;clear:both;margin-left:auto;margin-right:auto;}
+.floatLeft1 {float:left;margin-left:auto;margin-right:auto;}
+.floatRight {float:left;clear:left;}
+.floatRight1 {float:left;}
+.iblockGateWay .LsnsGo {position:absolute;top:19px;right:20px;  }
+.iblockGateWay .iclear {padding-top:100px;margin-left:auto;margin-right:auto;}
+.iblockGateWay .iclear .floatLeft {width:250px;padding-right:10px; display:inline;}
+.iblockGateWay .iclear .floatRight {width:250px;display:inline;padding-right:10px;}
+.iblockGateWay .iclear .floatLeft1 {width:250px;display:inline;}
+.iblockGateWay .iclear .floatRight1 {width:250px;display:inline;}
+.iblockGateWay .iclear .floatLeft a, .iblockGateWay .iclear .floatRight a {display:block;} 
+.iblockGateWay .iclear .floatLeft a img, .iblockGateWay .iclear .floatRight a img {width:100%;}
+.iblockGateWay .iclear .floatLeft1 a, .iblockGateWay .iclear .floatRight1 a {display:block;} 
+.iblockGateWay .iclear .floatLeft1 a img, .iblockGateWay .iclear .floatRight1 a img {width:100%;}
+
+.iblockWrapper.gateway .iblockFooterMenu {position:relative;width:auto;top:auto;right:auto;
+text-align:center;margin-top:5px;}
+.iblockWrapper.gateway .iblockFooterMenu ul, .iblockGateWay .iblockFooterMenu ul li { 
+display:inline-block;color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a {color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a:hover {color: #5b5b54;}
+
+.iblockWrapper.gateway .iblockFooterCopyright {position:relative;width:auto;text-align:center;
+top:auto;margin-top:100px;color:#6c6a66;font-size: 0.8em;clear:both;}
+
+.iblockWrapper.gateway .iblockFooterMenu li a.policy {color:#d80546;}
+.iblockWrapper.gateway .iblockFooterMenu li a.policy:hover {color: #d80546;}
+.iblockWrapper.gateway .iblockFooterLogo{text-align:center; margin-top:15px;}
+.iblockWrapper.gateway .iblockFooterLogo img{width:auto; height:25px;}
+
+
+}
+
+@media ( min-width: 650px ) and (max-width:750px) {
+	
+
+.iblockWrapper {position:relative;min-width:500px;
+	padding-right:65px;
+	_height:1%;
+	*min-height:1%;}
+
+.iblockGateWay .iclear {align-items:center;}
+
+.iblockWrapper.gateway {padding:0;}
+.iblockWrapper.gateway .iblockGateWay {position:relative;width:700px;padding:0 20px 20px;margin:0 auto;color:#5b5b54;}
+.igateTopLogo {position: absolute;top: 19px;left: 20px;}
+.igateTopLogo span {display:inline-block;width:165px;height:80px; background: url(../images/logo.gif) no-repeat; text-indent:-9999px; }
+.floatLeft {float:left;clear:both;margin-left:auto;margin-right:auto;}
+.floatLeft1 {float:left;margin-left:auto;margin-right:auto;}
+.floatRight {float:left;clear:left;margin-left:auto;margin-right:auto;}
+.floatRight1 {float:left;margin-left:auto;margin-right:auto;}
+.iblockGateWay .LsnsGo {position:absolute;top:19px;right:20px;  }
+.iblockGateWay .iclear {padding-top:100px;margin-left:auto;margin-right:auto;}
+.iblockGateWay .iclear .floatLeft {width:330px;padding-right:10px; display:inline;}
+.iblockGateWay .iclear .floatRight {width:330px;display:inline;}
+.iblockGateWay .iclear .floatLeft1 {width:330px;display:inline;}
+.iblockGateWay .iclear .floatRight1 {width:330px;display:inline;}
+.iblockGateWay .iclear .floatLeft a, .iblockGateWay .iclear .floatRight a {display:block;} 
+.iblockGateWay .iclear .floatLeft a img, .iblockGateWay .iclear .floatRight a img {width:100%;}
+.iblockGateWay .iclear .floatLeft1 a, .iblockGateWay .iclear .floatRight1 a {display:block;} 
+.iblockGateWay .iclear .floatLeft1 a img, .iblockGateWay .iclear .floatRight1 a img {width:100%;}
+.iblockWrapper.gateway .iblockFooterMenu {position:relative;width:auto;top:auto;right:auto;text-align:center;margin-top:5px;}
+.iblockWrapper.gateway .iblockFooterMenu ul, .iblockGateWay .iblockFooterMenu ul li { display:inline-block;color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a {color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a:hover {color: #5b5b54;}
+
+.iblockWrapper.gateway .iblockFooterCopyright {position:relative;width:auto;text-align:center;
+top:auto;margin-top:100px;color:#6c6a66;font-size: 0.8em;clear:both;}
+
+.iblockWrapper.gateway .iblockFooterMenu li a.policy {color:#d80546;}
+.iblockWrapper.gateway .iblockFooterMenu li a.policy:hover {color: #d80546;}
+.iblockWrapper.gateway .iblockFooterLogo{text-align:center; margin-top:15px;}
+.iblockWrapper.gateway .iblockFooterLogo img{width:auto; height:25px;}
+}
+
+@media ( min-width: 750px ) and (max-width:850px) {
+	
+
+.iblockWrapper {position:relative;min-width:500px;
+	padding-right:65px;
+	_height:1%;
+	*min-height:1%;}
+
+.iblockGateWay .iclear {align-items:center;}
+
+.iblockWrapper.gateway {padding:0;}
+.iblockWrapper.gateway .iblockGateWay {position:relative;width:1480px;padding:0 20px 20px;margin:0 auto;color:#5b5b54;}
+.igateTopLogo {position: absolute;top: 19px;left: 20px;}
+.igateTopLogo span {display:inline-block;width:165px;height:80px; background: url(../images/logo.gif) no-repeat; text-indent:-9999px; }
+.floatLeft {float:left;margin-left:auto;margin-right:auto;}
+.floatLeft1 {float:left;margin-left:auto;margin-right:auto;}
+.floatRight {float:left;margin-left:auto;margin-right:auto;}
+.floatRight1 {float:left;margin-left:auto;margin-right:auto;}
+.iblockGateWay .LsnsGo {position:absolute;top:19px;right:20px;  }
+.iblockGateWay .iclear {padding-top:200px;margin-left:auto;margin-right:auto;}
+.iblockGateWay .iclear .floatLeft {width:300px;padding-right:10px; display:inline;}
+.iblockGateWay .iclear .floatRight {width:300px;display:inline;padding-right:10px;}
+.iblockGateWay .iclear .floatLeft1 {width:300px;display:inline;padding-right:10px;}
+.iblockGateWay .iclear .floatRight1 {width:300px;display:inline;}
+.iblockGateWay .iclear .floatLeft a, .iblockGateWay .iclear .floatRight a {display:block;} 
+.iblockGateWay .iclear .floatLeft a img, .iblockGateWay .iclear .floatRight a img {width:100%;}
+.iblockGateWay .iclear .floatLeft1 a, .iblockGateWay .iclear .floatRight1 a {display:block;} 
+.iblockGateWay .iclear .floatLeft1 a img, .iblockGateWay .iclear .floatRight1 a img {width:100%;}
+.iblockWrapper.gateway .iblockFooterMenu {position:relative;width:auto;top:auto;right:auto;text-align:center;margin-top:5px;}
+.iblockWrapper.gateway .iblockFooterMenu ul, .iblockGateWay .iblockFooterMenu ul li { display:inline-block;color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a {color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a:hover {color: #5b5b54;}
+
+.iblockWrapper.gateway .iblockFooterCopyright {position:relative;width:auto;text-align:center;
+top:auto;margin-top:100px;color:#6c6a66;font-size: 0.8em;clear:both;}
+
+.iblockWrapper.gateway .iblockFooterMenu li a.policy {color:#d80546;}
+.iblockWrapper.gateway .iblockFooterMenu li a.policy:hover {color: #d80546;}
+.iblockWrapper.gateway .iblockFooterLogo{text-align:center; margin-top:15px;}
+.iblockWrapper.gateway .iblockFooterLogo img{width:auto; height:25px;}
+}
+
+
+@media ( min-width: 850px ) and (max-width:950px) {
+	
+
+.iblockWrapper {position:relative;min-width:500px;
+	padding-right:65px;
+	_height:1%;
+	*min-height:1%;}
+
+.iblockGateWay .iclear {align-items:center;}
+
+.iblockWrapper.gateway {padding:0;}
+.iblockWrapper.gateway .iblockGateWay {position:relative;width:1480px;padding:0 20px 20px;margin:0 auto;color:#5b5b54;}
+.igateTopLogo {position: absolute;top: 19px;left: 20px;}
+.igateTopLogo span {display:inline-block;width:165px;height:80px; background: url(../images/logo.gif) no-repeat; text-indent:-9999px; }
+.floatLeft {float:left;margin-left:auto;margin-right:auto;}
+.floatLeft1 {float:left;margin-left:auto;margin-right:auto;}
+.floatRight {float:left;margin-left:auto;margin-right:auto;}
+.floatRight1 {float:left;margin-left:auto;margin-right:auto;}
+.iblockGateWay .LsnsGo {position:absolute;top:19px;right:20px;  }
+.iblockGateWay .iclear {padding-top:200px;margin-left:auto;margin-right:auto;}
+.iblockGateWay .iclear .floatLeft {width:320px;padding-right:10px; display:inline;}
+.iblockGateWay .iclear .floatRight {width:320px;display:inline;padding-right:10px;}
+.iblockGateWay .iclear .floatLeft1 {width:320px;display:inline;padding-right:10px;}
+.iblockGateWay .iclear .floatRight1 {width:320px;display:inline;}
+.iblockGateWay .iclear .floatLeft a, .iblockGateWay .iclear .floatRight a {display:block;} 
+.iblockGateWay .iclear .floatLeft a img, .iblockGateWay .iclear .floatRight a img {width:100%;}
+.iblockGateWay .iclear .floatLeft1 a, .iblockGateWay .iclear .floatRight1 a {display:block;} 
+.iblockGateWay .iclear .floatLeft1 a img, .iblockGateWay .iclear .floatRight1 a img {width:100%;}
+.iblockWrapper.gateway .iblockFooterMenu {position:relative;width:auto;top:auto;right:auto;text-align:center;margin-top:5px;}
+.iblockWrapper.gateway .iblockFooterMenu ul, .iblockGateWay .iblockFooterMenu ul li { display:inline-block;color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a {color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a:hover {color: #5b5b54;}
+
+.iblockWrapper.gateway .iblockFooterCopyright {position:relative;width:auto;text-align:center;
+top:auto;margin-top:100px;color:#6c6a66;font-size: 0.8em;clear:both;}
+
+.iblockWrapper.gateway .iblockFooterMenu li a.policy {color:#d80546;}
+.iblockWrapper.gateway .iblockFooterMenu li a.policy:hover {color: #d80546;}
+.iblockWrapper.gateway .iblockFooterLogo{text-align:center; margin-top:15px;}
+.iblockWrapper.gateway .iblockFooterLogo img{width:auto; height:25px;}
+}
+
+
+@media ( min-width: 950px ) {
+	
+
+.iblockWrapper {position:relative;min-width:500px;
+	padding-right:65px;
+	_height:1%;
+	*min-height:1%;}
+
+.iblockGateWay .iclear {align-items:center;}
+
+.iblockWrapper.gateway {padding:0;}
+.iblockWrapper.gateway .iblockGateWay {position:relative;width:1480px;padding:0 20px 20px;margin:0 auto;color:#5b5b54;}
+.igateTopLogo {position: absolute;top: 19px;left: 20px;}
+.igateTopLogo span {display:inline-block;width:165px;height:80px; background: url(../images/logo.gif) no-repeat; text-indent:-9999px; }
+.floatLeft {float:left;margin-left:auto;margin-right:auto;}
+.floatLeft1 {float:left;margin-left:auto;margin-right:auto;}
+.floatRight {float:left;margin-left:auto;margin-right:auto;}
+.floatRight1 {float:left;margin-left:auto;margin-right:auto;}
+.iblockGateWay .LsnsGo {position:absolute;top:19px;right:20px;  }
+.iblockGateWay .iclear {padding-top:200px;margin-left:auto;margin-right:auto;}
+.iblockGateWay .iclear .floatLeft {width:25%;padding-right:50px; padding-left:10%; display:inline;}
+.iblockGateWay .iclear .floatRight {width:20%;display:inline;padding-left:0%;padding-right:10px;}
+.gateway .iblockGateWay .iclear .floatRight33 {width:25%;display:inline;padding-left:0%;padding-right:10px;}
+.iblockGateWay .iclear .floatLeft1 {width:25%;display:inline;padding-left:0%;padding-right:50px;}
+.iblockGateWay .iclear .floatRight1 {width:20%;display:inline;}
+.iblockGateWay .iclear .floatLeft a, .iblockGateWay .iclear .floatRight a {display:block;} 
+.iblockGateWay .iclear .floatLeft a img, .iblockGateWay .iclear .floatRight a img {width:100%;}
+.iblockGateWay .iclear .floatLeft1 a, .iblockGateWay .iclear .floatRight1 a {display:block;} 
+.iblockGateWay .iclear .floatLeft1 a img, .iblockGateWay .iclear .floatRight1 a img {width:100%;}
+.iblockWrapper.gateway .iblockFooterMenu {position:relative;width:auto;top:auto;right:auto;text-align:center;margin-top:5px;}
+.iblockWrapper.gateway .iblockFooterMenu ul, .iblockGateWay .iblockFooterMenu ul li { display:inline-block;color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a {color:#6c6a66;}
+.iblockWrapper.gateway .iblockFooterMenu li a:hover {color: #5b5b54;}
+
+.iblockWrapper.gateway .iblockFooterCopyright {position:relative;width:auto;text-align:center;
+top:auto;margin-top:100px;color:#6c6a66;font-size: 0.8em;clear:both;}
+
+.iblockWrapper.gateway .iblockFooterMenu li a.policy {color:#d80546;}
+.iblockWrapper.gateway .iblockFooterMenu li a.policy:hover {color: #d80546;}
+.iblockWrapper.gateway .iblockFooterLogo{text-align:center; margin-top:15px;}
+.iblockWrapper.gateway .iblockFooterLogo img{width:auto; height:25px;}
+}
