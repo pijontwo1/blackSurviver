@@ -219,12 +219,8 @@ $(document).ready(function(){
 		 location.href = "F8.jsp?local=21&id=<%=bean.getId()%>&ch=<%=bean.getCh()%>&now="+now;
 	  	  clearInterval(timer);    }, 1000);	});
 	G1.click(function(){map_move();	var timer=setInterval(function() {
-		 location.href = "G1.jsp?local=22&id=<%=bean.getId()%>&ch=<%=bean.getCh()%>
-	&now="
-														+ now;
-												clearInterval(timer);
-											}, 1000);
-								});
+		 location.href = "G1.jsp?local=22&id=<%=bean.getId()%>&ch=<%=bean.getCh()%>&now="+now;
+          clearInterval(timer);    }, 1000);	});
 
 						function cancel_map() {
 							move_can = 0;
