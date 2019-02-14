@@ -40,8 +40,11 @@ public class DBConnectionMgr {
     private Vector<ConnectionObject> connections = new Vector<ConnectionObject>(10);
     private String _driver = "org.gjt.mm.mysql.Driver",
     _url = "jdbc:mysql://127.0.0.1:3306/datainfo?useUnicode=true&characterEncoding=EUC_KR&autoReconnect=true&useSSL=false",
-    _user = "datainfo",
-    _password = "zkfps@650722";
+    
+    /*_user = "datainfo",
+    _password = "zkfps@650722";*/
+    _user = "root",
+    _password = "1234";
     
     private boolean _traceOn = false;
     private boolean initialized = false;

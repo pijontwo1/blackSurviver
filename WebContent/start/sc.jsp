@@ -154,7 +154,7 @@ $(document).ready(function(){
 		   }
   		});
 
-	
+
 	A1.click(function(){map_move();	var timer=setInterval(function() {
 		 location.href = "A1.jsp?local=1&id=<%=bean.getId()%>&ch=<%=bean.getCh()%>&now="+now;
 	  	  clearInterval(timer);    }, 1000);	});
